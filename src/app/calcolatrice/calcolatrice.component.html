@@ -1,0 +1,75 @@
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-8">
+      <div class="alert alert-secondary" role="alert">
+        {{risultato}}
+      </div>
+      <p class="espressione">{{espressione}}</p>
+    </div>
+	</div>
+  <div class="row ln0 justify-content-center">
+	  <div class="col-4 px-0">
+      <button (click)="cancella()" class="btn btn-primary btn-block">CE</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="cancellaC()" class="btn btn-primary btn-block">C</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('/')" class="btn btn-warning btn-block">/</button>
+    </div>
+  </div>
+  <div class="row ln1 justify-content-center">
+	  <div class="col-2 px-0">
+      <button (click)="chEsp('7')" class="btn btn-secondary btn-block">7</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('8')" class="btn btn-secondary btn-block">8</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('9')" class="btn btn-secondary btn-block">9</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('*')" class="btn btn-warning btn-block">X</button>
+    </div>
+  </div>
+  <div class="row ln2 justify-content-center">
+	  <div class="col-2 px-0">
+      <button (click)="chEsp('4')" class="btn btn-secondary btn-block">4</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('5')" class="btn btn-secondary btn-block">5</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('6')" class="btn btn-secondary btn-block">6</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('-')" class="btn btn-warning btn-block">-</button>
+    </div>
+  </div>
+  <div class="row ln3 justify-content-center">
+	  <div class="col-2 px-0">
+      <button (click)="chEsp('3')" class="btn btn-secondary btn-block">3</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('2')" class="btn btn-secondary btn-block">2</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('1')" class="btn btn-secondary btn-block">1</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('+')" class="btn btn-warning btn-block">+</button>
+    </div>
+  </div>
+  <div class="row ln4 justify-content-center">
+    <div class="col-4 px-0">
+      <button (click)="chEsp('0')" class="btn btn-secondary btn-block">0</button>
+    </div>
+    <div class="col-2 px-0">
+      <button (click)="chEsp('.')" class="btn btn-secondary btn-block">,</button>
+    </div>
+    <div class="col-2 px-0">
+      <button  (click)="calcola()" class="btn btn-danger btn-block">=</button>
+    </div>
+  </div>
+</div>
+

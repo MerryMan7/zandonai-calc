@@ -1,0 +1,10 @@
+#noPad{
+  padding: 0;
+}
+.btn{
+  border-radius: 0;
+  border: 1px solid black;
+}
+.espressione{
+  height: 24px;
+}
